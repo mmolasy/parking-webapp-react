@@ -41,7 +41,7 @@ export default class Car extends React.Component {
   render() {
     return (
     (this.props.type == "IN") ?
-      <div>
+      <div className="car">
         Dodaj nowy pojazd do parkingu
         <form onSubmit={this.handleSubmit}>
           <input type="text" name="owner" placeholder="Podaj id" onChange={this.handleChange}/><br/>
@@ -51,7 +51,7 @@ export default class Car extends React.Component {
         </form>
       </div>
       :
-      <div>
+      <div className="car">
         Pobierz pojazd z parkingu
         <form onSubmit={this.handleSubmit}>
           <input type="text" name="owner" placeholder="Podaj id" onChange={this.handleChange}/><br/>

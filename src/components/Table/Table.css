@@ -1,3 +1,35 @@
-table{
+.new-car{
+  margin-top: 30px;
+  padding: 20px;
+
+  float:left;
+  margin-right: 20px;
+}
+
+.main-component{
+  margin-top:30px;
+  margin: auto;
+  width: 80%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.car-table{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
   text-align: center;
+  border: 1px solid black;
+  font-size: 20px;
+  table-layout: fixed;
+}
+
+td,th {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.space {
+  margin-top: 20px;
 }
