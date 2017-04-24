@@ -11,8 +11,6 @@ export const App = () => (
   <div>
     <Header/>
     <Car type="IN"/>
-    <Table/>
-    <Car type="OUT"/>
   </div>
 )
 
