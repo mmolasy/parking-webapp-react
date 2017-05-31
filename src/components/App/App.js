@@ -2,15 +2,13 @@
  * Created by moliq on 22.04.17.
  */
 import React from 'react'
-import { IndexLink, Link } from 'react-router'
 import Header from '../Header'
-import Table from '../Table/Table'
-import Car from '../Car/Car'
+import Parking from '../Parking/Parking'
 
 export const App = () => (
   <div>
     <Header/>
-    <Car type="IN"/>
+    <Parking type="IN"/>
   </div>
 )
 
