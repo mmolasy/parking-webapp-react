@@ -87,8 +87,9 @@ export default class Parking extends React.Component {
 
   doEvent(){
     api.parking.doNextEvent()
-      .then((result) => {
-        this.uploadParking(result);
+      .then((resp) => resp.json())
+      .then((resp) => {
+        this.uploadParking(resp.parking);
       })
       .catch((error) => {
         console.log("Error"+error);
